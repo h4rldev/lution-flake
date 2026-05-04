@@ -1,0 +1,23 @@
+{
+    "lution": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "lution",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Wookhq",
+            "repo": "Lution",
+            "rev": "stable-v0.3.2",
+            "sha256": "sha256-A0o7o+zoVVxnODO6P+kKHyhGwxDRbPfKd6Y6W+6ivNY=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "stable-v0.3.2"
+    }
+}

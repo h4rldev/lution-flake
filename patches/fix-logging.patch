@@ -1,0 +1,13 @@
+--- a/src/Lution/modules/utils/logging.py
++++ b/src/Lution/modules/utils/logging.py
+@@ -1,6 +1,7 @@
+ import logging
++import os
+ logging.basicConfig(
+     level=logging.INFO,
+     format="[LUTION] %(asctime)s %(levelname)s: %(message)s",
+-    handlers=[logging.FileHandler("app.log"), logging.StreamHandler()],
++    handlers=[logging.FileHandler(os.path.join(os.environ.get('XDG_STATE_HOME', os.path.expanduser('~/.local/state')), 'lution', 'app.log')), logging.StreamHandler()],
+ )
+
+ class log:
